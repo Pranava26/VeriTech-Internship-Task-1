@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.company {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.company__name {
+    color: white;
+    background-color: rgb(159, 93, 222);
+    padding: 0.5rem 2rem;
+    font-weight: 600;
+    border-radius: 0.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.company__description {
+    width: 60%;
+    margin: 0 4rem;
+    text-align: justify;
+}
+
+hr {
+    border-top: 4px dashed rgb(159, 93, 222);
+    width: 50%;
+    margin: auto;
+  }
+
+.employees {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.employees h3 {
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+/* Utility class */
+.departments {
+    color: white;
+    background-color: rgb(159, 93, 222);
+    padding: 0.3rem;
+    font-weight: 600;
+    border-radius: 0.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.employee__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Utility class */
+.member {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.member__image{
+    background-color: rgb(190, 187, 187);
+    border-radius: 50%;
+}
+
+.founder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.vice-president {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.developers__one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.developers__two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.sales__one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.sales__two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+    margin-bottom: 2rem;
+}
+
+/* Utility classes */
+.text__bold {
+    font-weight: 600;
+}
+
+.text__purple {
+    color: rgb(159, 93, 222);
+    font-style: italic;
+}
